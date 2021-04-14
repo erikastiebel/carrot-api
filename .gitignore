@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+firebase/
+.env
+weggo-application-firebase-adminsdk-owek6-ac94c7507d.json

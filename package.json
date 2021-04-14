@@ -1,0 +1,50 @@
+{
+  "name": "carrot-api",
+  "version": "1.0.0",
+  "description": "carrot api for serving data from Firebase",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "webpack --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikastiebel/carrot-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erikastiebel/carrot-api/issues"
+  },
+  "keywords": [
+    "api",
+    "express"
+  ],
+  "author": "Wictor Stiebel and Erika Stiebel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.3",
+    "firebase": "^3.8.0",
+    "firebase-admin": "^5.13.1",
+    "http-proxy": "^1.17.0",
+    "morgan": "^1.9.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "json-loader": "^0.5.7",
+    "nodemon": "^1.18.4",
+    "webpack": "^3.12.0",
+    "webpack-dev-middleware": "^1.12.2",
+    "webpack-hot-middleware": "^2.24.2"
+  },
+  "browser": {
+    "fs": false,
+    "net": false,
+    "tls": false
+  }
+}
